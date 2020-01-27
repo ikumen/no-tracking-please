@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "Make Gmail Nice",
+  "version": "1.0",
+
+  "description": "Makes Gmail nice again.",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://mail.google.com/mail/u/0/h/*"],
+      "js": ["index.js"]
+    }
+  ]
+
+}
