@@ -1,2 +1,3 @@
-# make-gmail-nice
-Browser extension to make Gmail nice again
+# No Tracking Please 
+
+A little browser extension to remmove tracking and redirects. 

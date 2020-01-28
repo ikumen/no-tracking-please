@@ -1,13 +1,19 @@
 {
 
   "manifest_version": 2,
-  "name": "Make Gmail Nice",
+  "name": "No Tracking Please",
   "version": "1.0",
 
-  "description": "Makes Gmail nice again.",
+  "description": "Removes tracking and redirects",
 
   "icons": {
     "48": "icons/border-48.png"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "ikumen@gnoht.com"
+    }
   },
 
   "content_scripts": [
